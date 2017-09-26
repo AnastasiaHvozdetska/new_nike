@@ -53,6 +53,7 @@
 	margin-top: 80px;
 	display: flex;
 	justify-content: center;
+	position: relative;
 }
 
 .ba-main__card1 {
@@ -60,7 +61,6 @@
 	height: 380px;
 	background-color: #fff;
 	opacity: 0.3;
-	position: relative;
 }
 
 .ba-main__card2 {
@@ -69,14 +69,14 @@
 	background-color: #fff;
 	opacity: 0.4;
 	position: absolute;
-	bottom: 190px;
+	top: -10px;
 }
 
 .ba-main__card3 {
 	width: 750px;
 	height: 430px;
 	position: absolute;
-	bottom: 176px;
+	top: -26px;
 	background-color: #fff;
 	display: flex;
 }
